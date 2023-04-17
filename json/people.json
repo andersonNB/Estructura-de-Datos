@@ -1,0 +1,11 @@
+{
+	"name": "Héctor de León",
+	"email": "unmail@gmail.com",
+	"twitter": "twitter.com",
+	"skills": ["backend", "frontend", "IOT"],
+	"address": {
+		"city": "",
+		"region": "",
+		"country": ""
+	}
+}
