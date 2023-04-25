@@ -50,3 +50,39 @@ setArray.forEach(element => {
 //limpiar set
 set.clear();
 console.log(set)
+
+//Ejemplo de uso de SET
+
+const functions = new Set();
+
+function addAction(fn) {
+
+    functions.add(fn);
+
+    console.log(functions);
+}
+
+function action1() {
+    console.log("action1")
+}
+
+function action2() {
+    console.log("action2")
+}
+
+console.log(action2 instanceof Object)
+
+function action3() {
+    console.log("action3")
+}
+
+function action4() {
+    console.log("action4")
+}
+
+
+function run() {
+    for (const fn of functions) {
+        fn();
+    }
+}
